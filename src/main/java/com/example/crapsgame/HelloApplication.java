@@ -1,5 +1,7 @@
 package com.example.crapsgame;
 
+import com.example.crapsgame.models.Cat;
+import com.example.crapsgame.models.Dog;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -18,6 +20,11 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+        // launch();
+        Dog dog = new Dog();
+        dog.makeSound();
+
+        Cat cat = new Cat();
+        cat.makeSound();
     }
 }
