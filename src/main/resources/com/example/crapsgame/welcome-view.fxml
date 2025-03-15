@@ -12,6 +12,6 @@
             <Insets bottom="10.0" left="10.0" right="10.0" />
          </VBox.margin>
       </TextField>
-      <Button mnemonicParsing="false" onAction="#onActionFPOEButton" prefHeight="16.0" prefWidth="64.0" text="Button" />
+      <Button mnemonicParsing="false" onAction="#onActionFPOEButton" prefHeight="16.0" prefWidth="64.0" text="Start" />
    </children>
 </VBox>
